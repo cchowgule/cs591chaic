@@ -62,3 +62,7 @@ typings/
 
 # webstorm project files
 .idea
+
+# config directory and files
+config
+config.js
