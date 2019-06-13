@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import {Prices} from './prices';
-import {pricesMock} from './prices_mock';
+import {prices} from './prices';
 
 @Component({
   selector: 'app-root',
@@ -10,10 +9,5 @@ import {pricesMock} from './prices_mock';
 
 export class AppComponent {
   title = 'Gold Prices';
-  prices = pricesMock;
-  private selectedPrice: Prices;
-
-  selectPrice(price: Prices) {
-    this.selectedPrice = price;
-  }
+  prices = prices;
 }
