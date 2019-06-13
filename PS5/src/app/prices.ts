@@ -1,6 +1,5 @@
-import {PriceModel} from './priceModel';
 
-export const prices: PriceModel[] =
+export const prices: any[] =
   [
     {
       _id: '0',
