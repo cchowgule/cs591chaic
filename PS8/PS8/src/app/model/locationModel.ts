@@ -5,6 +5,6 @@ export class LOC {
   name: string;
   current: string;
   cached: string;
-  restList: string;
+  restList: string[];
   showList: boolean;
 }

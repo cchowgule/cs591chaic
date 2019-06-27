@@ -10,10 +10,11 @@
 </div>
 
 <div>
-  Name: {{loc.name}} |
-  Zip code: {{loc.zip}} |
-  Current Weather{{loc.current}} |
-  Is cached result: {{loc.cached}} |
+  <p>{{loc.name}}</p>
+  <p>Zip code: {{loc.zip}}</p>
+  <p>Current Weather{{loc.current}}</p>
+  <p>Is cached result: {{loc.cached}}</p>
+  <button (click)="getRestList()">Get Restaurants</button>
   <div *ngIf="loc.showList">
     <li *ngFor="let restaurant of loc.restList">
       {{restaurant}}
